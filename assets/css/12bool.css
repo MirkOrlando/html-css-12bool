@@ -37,6 +37,10 @@ a {
     padding-bottom: 0.5rem;
 }
 
+.m-1 {
+    margin: 1rem;
+}
+
 /* sizes */
 
 .h-80 {

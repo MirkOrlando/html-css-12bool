@@ -1,3 +1,9 @@
+/* #region common */
+
+body {
+    overflow: hidden;
+}
+
 /* #region header */
 header {
     background-color: lightseagreen;
@@ -12,3 +18,32 @@ header {
 }
 
 /* #endregion header */
+
+/* #region main */
+
+main > aside, 
+main > div {
+    max-height: calc(100vh - 160px);
+}
+
+/* #region aside */
+
+aside {
+    overflow-y: auto;
+}
+
+
+.conversation {
+    border-bottom: 1px solid lightseagreen ;
+}
+
+.conversation img {
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+}
+
+/* #endregion aside */
+
+/* #endregion main */
+
+

@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: black
+}
+
 .img-fluid {
     max-width: 100%;
 }
@@ -34,6 +39,10 @@
 
 /* sizes */
 
+.h-80 {
+    height: 80px;
+}
+
 .h-50 {
     height: 50px;
 }
@@ -56,12 +65,12 @@
     justify-content: center;
 }
 
-.fg-1 {
-    flex: 1;
+.jc-flex-end {
+    justify-content: flex-end;
 }
 
-.fg-3 {
-    flex: 3;
+.g-1 {
+    gap: 1rem;
 }
 
 /* #endregion utility */

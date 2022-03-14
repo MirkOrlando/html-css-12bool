@@ -1,0 +1,14 @@
+/* #region header */
+header {
+    background-color: lightseagreen;
+}
+
+.app-logo h1 {
+    
+}
+
+.user > img {
+    border-radius: 50%;
+}
+
+/* #endregion header */

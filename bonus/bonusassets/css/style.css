@@ -21,20 +21,20 @@ header {
 
 /* #region main */
 
-main > aside, 
-main > div {
+main aside, 
+main div {
     max-height: calc(100vh - 160px);
+    overflow-y: auto;
 }
 
 /* #region aside */
 
-aside {
-    overflow-y: auto;
-}
-
-
 .conversation {
     border-bottom: 1px solid lightseagreen ;
+}
+
+.conversation.active {
+    background-color: azure;
 }
 
 .conversation img {
@@ -44,6 +44,22 @@ aside {
 
 /* #endregion aside */
 
+.received {
+    background-color: lightsteelblue;
+    border-radius: 20px;
+}
+
+.sent {
+    background-color: lightgreen;
+    border-radius: 20px;
+}
+
 /* #endregion main */
 
+/* #region footer */
 
+footer {
+    background-color: lightseagreen;
+}
+
+/* #endregion footer */

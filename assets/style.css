@@ -1,0 +1,13 @@
+/* #region common */
+
+:root{
+    --primary: #006CFA;
+    --success: #00E165;
+    --lighter: white;
+}
+
+[class^="col"] {
+    color: var(--lighter);
+    background-color: var(--primary);
+    border: 1px solid var(--lighter);
+}

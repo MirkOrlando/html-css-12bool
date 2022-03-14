@@ -38,6 +38,14 @@
     justify-content: center;
 }
 
+.fg-1 {
+    flex: 1;
+}
+
+.fg-3 {
+    flex: 3;
+}
+
 /* #endregion utility */
 
 /* #region Grid structure */

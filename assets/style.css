@@ -11,3 +11,9 @@
     background-color: var(--primary);
     border: 1px solid var(--lighter);
 }
+
+.nested {
+    background-color: var(--success);
+    border: 1px solid var(--primary);
+    flex-wrap: nowrap;
+}
